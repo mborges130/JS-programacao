@@ -1,0 +1,24 @@
+{
+  "name": "js-programacao",
+  "version": "1.0.0",
+  "description": "Curso de JS programação Orientada a Objetos",
+  "main": "User.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mborges130/JS-programacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mborges130/JS-programacao/issues"
+  },
+  "homepage": "https://github.com/mborges130/JS-programacao#readme"
+}
