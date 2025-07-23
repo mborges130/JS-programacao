@@ -12,8 +12,8 @@ export default class User {
     }
 }
 
-const novoUser = new User('Juliana', 'j@j.comm', '2024-01-01', 'estudante', true);
-console.log(novoUser);
-console.log(novoUser.exibirInfos()); // Juliana,
+//const novoUser = new User('Juliana', 'j@j.comm', '2024-01-01', 'estudante', true);
+//console.log(novoUser);
+//console.log(novoUser.exibirInfos()); // Juliana,
 
-console.log(User.prototype.isPrototypeOf(novoUser)); // Exibe o protótipo da classe User
+//console.log(User.prototype.isPrototypeOf(novoUser)); // Exibe o protótipo da classe User
