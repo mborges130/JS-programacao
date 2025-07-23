@@ -42,10 +42,26 @@ export default class User {
         this.#ativo = novoAtivo;        
     }
 
-    exibirInfos() {
-        return `${this.nome}, ${this.email}`;
+    //exibirInfos() {
+      //  return `${this.nome}, ${this.email}`;
+   // }
+   exibirInfos() {
+    if (this.role === "estudante") {
+        return `dados estudante: ${this.nome}, ${this.email}`;
+    }   
+    if (this.role === "admin") {
+        return `dados admin: ${this.nome}, ${this.email}, ${this.role}`;
+    }
+    if (this.role === "docente") {
+        return `dados docente: ${this.nome}, ${this.email}`;
+    }
+                };
+    static exibirInfoGenericas(nome, email) {
+        return `Nome: ${nome}, Email: ${email}`;
     }
 }
+
+
 
 //const novoUser = new User('Juliana', 'j@j.comm', '2024-01-01', 'estudante', true);
 //console.log(novoUser);
