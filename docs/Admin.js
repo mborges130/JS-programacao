@@ -12,7 +12,7 @@ export default class Admin extends User {
    
 }
 
-const novoAdmin = new Admin('Mateus', 'm@m.com', '2024-01-01');
+//const novoAdmin = new Admin('Mateus', 'm@m.com', '2024-01-01');
 //console.log(novoAdmin.exibirInfos()); // Mateus,
 //console.log(novoAdmin.exibirNome()); // Olá, meu nome é Mateus
 //console.log(novoAdmin.criarCurso('JavaScript', 20)); // Mateus,
